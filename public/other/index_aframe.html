@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <script src="https://raw.githack.com/jeromeetienne/AR.js/2.1.4/aframe/build/aframe-ar.js"></script>
+  </head>
+
+  <body>
+    <a-scene arjs embedded>
+      <a-marker present="hiro">
+        <a-box
+          color="red"
+          position="0 1.6 -2"
+          rotation="0 45 45"
+          animation="property: rotation; to: 0 40 45; loop: true; dur: 5000"
+        >
+        </a-box>
+      </a-marker>
+    </a-scene>
+  </body>
+</html>
